@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+}
+.contenedor_flexible{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.elemento_flexible{
+    color:white;
+}
+.uno{
+    background-color: red;
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.dos{
+    background-color: blue;
+    flex-basis: 50%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.tres{
+    background-color: yellow;
+    flex-basis: 50%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
